@@ -1,0 +1,15 @@
+{
+  "name": "coin-invite-bot",
+  "version": "1.0.0",
+  "description": "Discord bot: invite someone -> get 100 coins. Spend 7 coins in the shop.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
